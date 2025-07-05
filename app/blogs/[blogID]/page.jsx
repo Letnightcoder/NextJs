@@ -1,10 +1,10 @@
 // [id] is call slug
 export default async function Blog({ params }) {
   console.log(await params);
-  const { id } = await params;
+  const { blogID } = await params;
   return (
     <>
-      <h1>Welcome to Blog { id } Page</h1>
+      <h1>Welcome to Blog { blogID } Page</h1>
     </>
   );
 }
