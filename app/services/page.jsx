@@ -3,11 +3,11 @@ import Link from "next/link";
 export default function Services() {
   return (
     <>
-      <h1>Welcome to Services Page</h1>
-      {/* <a href="/">Home</a>*/} {/*its relode the whole page */}
-      <Link href="/">Home</Link> 
-      <br/>
-      <Link href="/about">About</Link> 
+      <h1>All Services</h1>
+      <p><Link href="/services/web-dev">Web Development</Link></p>
+      <p><Link href="/services/app-dev">App Development</Link></p>
+      <p><Link href="/services/web-app-dev">Web/App Development</Link></p>
+      <p><Link href="/services/seo">SEO</Link></p>
     </>
   );
 }
