@@ -1,4 +1,8 @@
-export default async function Blogs({params}) {
+export const metadata = {
+  title: "Blogs",
+};
+
+export default async function Blogs({ params }) {
   console.log(await params);
   return (
     <>
